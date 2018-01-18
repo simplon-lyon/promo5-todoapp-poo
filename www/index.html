@@ -8,8 +8,27 @@
   <title>Document</title>
 </head>
 <body>
+  <section id="todoList">
+    <ul>
+      <li>
+        <div>
+          <h1>Title</h1>
+          <p>Description</p>
+        </div>
+        <input type="checkbox">
+      </li>
+    </ul>
+    <form>
+      <input type="text" placeholder="Title" name="title" required>
+      <input type="text" placeholder="Descritption" name="description" required>
+      <input type="submit" value="Add Todo">
+      <input type="button" value="Delete Todos">
+    </form>
+  </section>
+  
   <script src="todoModel.js"></script>
   <script src="todoListModel.js"></script>
+  <script src="todoListView.js"></script>
   <script src="app.js"></script>
 </body>
 </html>

@@ -1,0 +1,13 @@
+#todoList li{
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid #000;
+}
+
+#todoList ul{
+  padding: 0;
+  list-style: none;
+  width: 680px;
+}
